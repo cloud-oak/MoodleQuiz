@@ -43,7 +43,7 @@ a2 = EmbeddedAnswer(MultipleChoiceVertical,AnswerOptions=[EmbeddedAnswerOption("
 q4 = Question(EmbeddedAnswers,
 			Name="Pokemon",
 			Text="""
-				There are $(NumericalEmbeddedAnswer(151)) 1st gen Pokemon, and $(NumericalEmbeddedAnswer(721)) Pokemon overall.<br>
+				There are $(NumericalEmbeddedAnswer(151)) 1st gen Pokemon, and $(NumericalEmbeddedAnswer(805)) Pokemon overall.<br>
 				Pikachu is a $a1 type Pokemon.<br>
 				Fire type moves are $a2 effective against water type Pokemon.
 				"""
